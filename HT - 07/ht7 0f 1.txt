@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+    <form>
+      <h3>Personal information</h3>
+
+      <label>First Name:-</label>
+      <input type="text" name="First_Name" value="First Name"><br><br>
+
+      <label>email:-</label>
+      <input type="email" name="email" value="xxx@gmail.com"><br><br>
+
+      <label>Password:-</label>
+      <input type="Password" id="Password" name="user-Password"><br><br>
+
+      <label>Experience:-</label>
+      <input type="number" id="years" name="years" step="1"><br><br>               
+       
+      <label>Gender:-</label>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female<br><br>
+      
+      <input type="submit" value="submit">
+
+
+
+    </form>
+  </body>
+  </html>
